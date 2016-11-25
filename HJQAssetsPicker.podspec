@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = 'HJQAssetsPicker'
-s.version      = '0.0.2'
+s.version      = '0.0.3'
 s.license      = 'LICENSE'
 s.homepage     = 'https://github.com/XiaoHanGe/HJQAssetsPicker'
 s.authors        = { '韩俊强' => '532167805@qq.com' }
