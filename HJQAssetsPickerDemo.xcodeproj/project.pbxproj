@@ -7,60 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11364C681D86C43D001FC39C /* HJQImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C13B9A1D1784F100EDE287 /* HJQImageManager.m */; };
-		E25A1CA61D1CC42C00FF94F8 /* HJQAssetsPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E25A1CA51D1CC42C00FF94F8 /* HJQAssetsPicker.bundle */; };
-		E2C13B7C1D17849E00EDE287 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C13B7B1D17849E00EDE287 /* main.m */; };
-		E2C13B7F1D17849E00EDE287 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C13B7E1D17849E00EDE287 /* AppDelegate.m */; };
-		E2C13B821D17849E00EDE287 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C13B811D17849E00EDE287 /* ViewController.m */; };
-		E2C13B851D17849E00EDE287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C13B831D17849E00EDE287 /* Main.storyboard */; };
-		E2C13B871D17849E00EDE287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C13B861D17849E00EDE287 /* Assets.xcassets */; };
-		E2C13B8A1D17849E00EDE287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C13B881D17849E00EDE287 /* LaunchScreen.storyboard */; };
-		E2C13BA41D1784F100EDE287 /* YAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C13B961D1784F100EDE287 /* YAlbumsViewController.m */; };
-		E2C13BA51D1784F100EDE287 /* HJQAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C13B981D1784F100EDE287 /* HJQAssetsViewController.m */; };
-		E2C13BA71D1784F100EDE287 /* HImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C13B9C1D1784F100EDE287 /* HImageModel.m */; };
-		E2C13BA81D1784F100EDE287 /* HJQImagePickerNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C13B9E1D1784F100EDE287 /* HJQImagePickerNavController.m */; };
-		E2C13BA91D1784F100EDE287 /* HJQPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C13BA01D1784F100EDE287 /* HJQPhotoPreviewController.m */; };
+		47FE8EB71DE81A5500CD76FC /* HImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FE8EA71DE81A5500CD76FC /* HImageModel.m */; };
+		47FE8EB81DE81A5500CD76FC /* HJQAssetsPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 47FE8EA81DE81A5500CD76FC /* HJQAssetsPicker.bundle */; };
+		47FE8EB91DE81A5500CD76FC /* HJQAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FE8EAA1DE81A5500CD76FC /* HJQAssetsViewController.m */; };
+		47FE8EBA1DE81A5500CD76FC /* HJQImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FE8EAC1DE81A5500CD76FC /* HJQImageManager.m */; };
+		47FE8EBB1DE81A5500CD76FC /* HJQImagePickerNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FE8EAE1DE81A5500CD76FC /* HJQImagePickerNavController.m */; };
+		47FE8EBC1DE81A5500CD76FC /* HJQPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FE8EB01DE81A5500CD76FC /* HJQPhotoPreviewController.m */; };
+		47FE8EBD1DE81A5500CD76FC /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FE8EB21DE81A5500CD76FC /* UIImage+Resize.m */; };
+		47FE8EBE1DE81A5500CD76FC /* UIView+GCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FE8EB41DE81A5500CD76FC /* UIView+GCAdd.m */; };
+		47FE8EBF1DE81A5500CD76FC /* YAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FE8EB61DE81A5500CD76FC /* YAlbumsViewController.m */; };
+		47FE8EC51DE81A7B00CD76FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FE8EC11DE81A7B00CD76FC /* AppDelegate.m */; };
+		47FE8EC61DE81A7B00CD76FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FE8EC41DE81A7B00CD76FC /* ViewController.m */; };
+		47FE8EC81DE81A8600CD76FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47FE8EC71DE81A8600CD76FC /* Assets.xcassets */; };
+		47FE8ECA1DE81A9600CD76FC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47FE8EC91DE81A9600CD76FC /* Info.plist */; };
+		47FE8ECC1DE81AA200CD76FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FE8ECB1DE81AA200CD76FC /* main.m */; };
+		47FE8ED11DE81B7800CD76FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47FE8ECD1DE81B7800CD76FC /* LaunchScreen.storyboard */; };
+		47FE8ED21DE81B7800CD76FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47FE8ECF1DE81B7800CD76FC /* Main.storyboard */; };
 		E2C13BAB1D17851500EDE287 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C13BAA1D17851500EDE287 /* AddressBook.framework */; };
 		E2C13BAD1D17851F00EDE287 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C13BAC1D17851F00EDE287 /* Photos.framework */; };
 		E2C13BAF1D17852600EDE287 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C13BAE1D17852600EDE287 /* Foundation.framework */; };
 		E2C13BB11D17852C00EDE287 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C13BB01D17852C00EDE287 /* UIKit.framework */; };
-		E2C13BCA1D1804DB00EDE287 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C13BC71D1804DB00EDE287 /* UIImage+Resize.m */; };
-		E2C13BCB1D1804DB00EDE287 /* UIView+GCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C13BC91D1804DB00EDE287 /* UIView+GCAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E25A1CA51D1CC42C00FF94F8 /* HJQAssetsPicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HJQAssetsPicker.bundle; sourceTree = "<group>"; };
-		E25A1CA81D1CC4D000FF94F8 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		47FE8EA61DE81A5500CD76FC /* HImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HImageModel.h; sourceTree = "<group>"; };
+		47FE8EA71DE81A5500CD76FC /* HImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HImageModel.m; sourceTree = "<group>"; };
+		47FE8EA81DE81A5500CD76FC /* HJQAssetsPicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HJQAssetsPicker.bundle; sourceTree = "<group>"; };
+		47FE8EA91DE81A5500CD76FC /* HJQAssetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJQAssetsViewController.h; sourceTree = "<group>"; };
+		47FE8EAA1DE81A5500CD76FC /* HJQAssetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJQAssetsViewController.m; sourceTree = "<group>"; };
+		47FE8EAB1DE81A5500CD76FC /* HJQImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJQImageManager.h; sourceTree = "<group>"; };
+		47FE8EAC1DE81A5500CD76FC /* HJQImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJQImageManager.m; sourceTree = "<group>"; };
+		47FE8EAD1DE81A5500CD76FC /* HJQImagePickerNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJQImagePickerNavController.h; sourceTree = "<group>"; };
+		47FE8EAE1DE81A5500CD76FC /* HJQImagePickerNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJQImagePickerNavController.m; sourceTree = "<group>"; };
+		47FE8EAF1DE81A5500CD76FC /* HJQPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJQPhotoPreviewController.h; sourceTree = "<group>"; };
+		47FE8EB01DE81A5500CD76FC /* HJQPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJQPhotoPreviewController.m; sourceTree = "<group>"; };
+		47FE8EB11DE81A5500CD76FC /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		47FE8EB21DE81A5500CD76FC /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		47FE8EB31DE81A5500CD76FC /* UIView+GCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GCAdd.h"; sourceTree = "<group>"; };
+		47FE8EB41DE81A5500CD76FC /* UIView+GCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GCAdd.m"; sourceTree = "<group>"; };
+		47FE8EB51DE81A5500CD76FC /* YAlbumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAlbumsViewController.h; sourceTree = "<group>"; };
+		47FE8EB61DE81A5500CD76FC /* YAlbumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAlbumsViewController.m; sourceTree = "<group>"; };
+		47FE8EC01DE81A7B00CD76FC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = HJQAssetsPickerDemo/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		47FE8EC11DE81A7B00CD76FC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = HJQAssetsPickerDemo/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		47FE8EC21DE81A7B00CD76FC /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = HJQAssetsPickerDemo/PrefixHeader.pch; sourceTree = SOURCE_ROOT; };
+		47FE8EC31DE81A7B00CD76FC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = HJQAssetsPickerDemo/ViewController.h; sourceTree = SOURCE_ROOT; };
+		47FE8EC41DE81A7B00CD76FC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = HJQAssetsPickerDemo/ViewController.m; sourceTree = SOURCE_ROOT; };
+		47FE8EC71DE81A8600CD76FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = HJQAssetsPickerDemo/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		47FE8EC91DE81A9600CD76FC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HJQAssetsPickerDemo/Info.plist; sourceTree = SOURCE_ROOT; };
+		47FE8ECB1DE81AA200CD76FC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = HJQAssetsPickerDemo/main.m; sourceTree = SOURCE_ROOT; };
+		47FE8ECE1DE81B7800CD76FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = HJQAssetsPickerDemo/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		47FE8ED01DE81B7800CD76FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = HJQAssetsPickerDemo/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		E2C13B771D17849E00EDE287 /* HJQAssetsPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJQAssetsPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2C13B7B1D17849E00EDE287 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E2C13B7D1D17849E00EDE287 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E2C13B7E1D17849E00EDE287 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E2C13B801D17849E00EDE287 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E2C13B811D17849E00EDE287 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E2C13B841D17849E00EDE287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E2C13B861D17849E00EDE287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E2C13B891D17849E00EDE287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E2C13B8B1D17849E00EDE287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E2C13B951D1784F100EDE287 /* YAlbumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAlbumsViewController.h; sourceTree = "<group>"; };
-		E2C13B961D1784F100EDE287 /* YAlbumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAlbumsViewController.m; sourceTree = "<group>"; };
-		E2C13B971D1784F100EDE287 /* HJQAssetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJQAssetsViewController.h; sourceTree = "<group>"; };
-		E2C13B981D1784F100EDE287 /* HJQAssetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJQAssetsViewController.m; sourceTree = "<group>"; };
-		E2C13B991D1784F100EDE287 /* HJQImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJQImageManager.h; sourceTree = "<group>"; };
-		E2C13B9A1D1784F100EDE287 /* HJQImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJQImageManager.m; sourceTree = "<group>"; };
-		E2C13B9B1D1784F100EDE287 /* HImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HImageModel.h; sourceTree = "<group>"; };
-		E2C13B9C1D1784F100EDE287 /* HImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HImageModel.m; sourceTree = "<group>"; };
-		E2C13B9D1D1784F100EDE287 /* HJQImagePickerNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJQImagePickerNavController.h; sourceTree = "<group>"; };
-		E2C13B9E1D1784F100EDE287 /* HJQImagePickerNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJQImagePickerNavController.m; sourceTree = "<group>"; };
-		E2C13B9F1D1784F100EDE287 /* HJQPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJQPhotoPreviewController.h; sourceTree = "<group>"; };
-		E2C13BA01D1784F100EDE287 /* HJQPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJQPhotoPreviewController.m; sourceTree = "<group>"; };
 		E2C13BAA1D17851500EDE287 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		E2C13BAC1D17851F00EDE287 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		E2C13BAE1D17852600EDE287 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E2C13BB01D17852C00EDE287 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		E2C13BC61D1804DB00EDE287 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
-		E2C13BC71D1804DB00EDE287 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
-		E2C13BC81D1804DB00EDE287 /* UIView+GCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GCAdd.h"; sourceTree = "<group>"; };
-		E2C13BC91D1804DB00EDE287 /* UIView+GCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GCAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,14 +79,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47FE8EA51DE81A5500CD76FC /* HJQAssetsPicker */ = {
+			isa = PBXGroup;
+			children = (
+				47FE8EA61DE81A5500CD76FC /* HImageModel.h */,
+				47FE8EA71DE81A5500CD76FC /* HImageModel.m */,
+				47FE8EA81DE81A5500CD76FC /* HJQAssetsPicker.bundle */,
+				47FE8EA91DE81A5500CD76FC /* HJQAssetsViewController.h */,
+				47FE8EAA1DE81A5500CD76FC /* HJQAssetsViewController.m */,
+				47FE8EAB1DE81A5500CD76FC /* HJQImageManager.h */,
+				47FE8EAC1DE81A5500CD76FC /* HJQImageManager.m */,
+				47FE8EAD1DE81A5500CD76FC /* HJQImagePickerNavController.h */,
+				47FE8EAE1DE81A5500CD76FC /* HJQImagePickerNavController.m */,
+				47FE8EAF1DE81A5500CD76FC /* HJQPhotoPreviewController.h */,
+				47FE8EB01DE81A5500CD76FC /* HJQPhotoPreviewController.m */,
+				47FE8EB11DE81A5500CD76FC /* UIImage+Resize.h */,
+				47FE8EB21DE81A5500CD76FC /* UIImage+Resize.m */,
+				47FE8EB31DE81A5500CD76FC /* UIView+GCAdd.h */,
+				47FE8EB41DE81A5500CD76FC /* UIView+GCAdd.m */,
+				47FE8EB51DE81A5500CD76FC /* YAlbumsViewController.h */,
+				47FE8EB61DE81A5500CD76FC /* YAlbumsViewController.m */,
+			);
+			path = HJQAssetsPicker;
+			sourceTree = "<group>";
+		};
 		E2C13B6E1D17849E00EDE287 = {
 			isa = PBXGroup;
 			children = (
+				47FE8EA51DE81A5500CD76FC /* HJQAssetsPicker */,
 				E2C13BB01D17852C00EDE287 /* UIKit.framework */,
 				E2C13BAE1D17852600EDE287 /* Foundation.framework */,
 				E2C13BAC1D17851F00EDE287 /* Photos.framework */,
 				E2C13BAA1D17851500EDE287 /* AddressBook.framework */,
-				E2C13B911D1784F100EDE287 /* HJQAssetsPicker */,
 				E2C13B791D17849E00EDE287 /* HJQAssetsPickerDemo */,
 				E2C13B781D17849E00EDE287 /* Products */,
 			);
@@ -102,15 +127,15 @@
 		E2C13B791D17849E00EDE287 /* HJQAssetsPickerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				E2C13B7D1D17849E00EDE287 /* AppDelegate.h */,
-				E2C13B7E1D17849E00EDE287 /* AppDelegate.m */,
-				E2C13B801D17849E00EDE287 /* ViewController.h */,
-				E2C13B811D17849E00EDE287 /* ViewController.m */,
-				E25A1CA81D1CC4D000FF94F8 /* PrefixHeader.pch */,
-				E2C13B831D17849E00EDE287 /* Main.storyboard */,
-				E2C13B861D17849E00EDE287 /* Assets.xcassets */,
-				E2C13B881D17849E00EDE287 /* LaunchScreen.storyboard */,
-				E2C13B8B1D17849E00EDE287 /* Info.plist */,
+				47FE8EC01DE81A7B00CD76FC /* AppDelegate.h */,
+				47FE8EC11DE81A7B00CD76FC /* AppDelegate.m */,
+				47FE8EC21DE81A7B00CD76FC /* PrefixHeader.pch */,
+				47FE8EC31DE81A7B00CD76FC /* ViewController.h */,
+				47FE8EC41DE81A7B00CD76FC /* ViewController.m */,
+				47FE8EC91DE81A9600CD76FC /* Info.plist */,
+				47FE8ECD1DE81B7800CD76FC /* LaunchScreen.storyboard */,
+				47FE8ECF1DE81B7800CD76FC /* Main.storyboard */,
+				47FE8EC71DE81A8600CD76FC /* Assets.xcassets */,
 				E2C13B7A1D17849E00EDE287 /* Supporting Files */,
 			);
 			name = HJQAssetsPickerDemo;
@@ -120,34 +145,9 @@
 		E2C13B7A1D17849E00EDE287 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E2C13B7B1D17849E00EDE287 /* main.m */,
+				47FE8ECB1DE81AA200CD76FC /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E2C13B911D1784F100EDE287 /* HJQAssetsPicker */ = {
-			isa = PBXGroup;
-			children = (
-				E25A1CA51D1CC42C00FF94F8 /* HJQAssetsPicker.bundle */,
-				E2C13BC61D1804DB00EDE287 /* UIImage+Resize.h */,
-				E2C13BC71D1804DB00EDE287 /* UIImage+Resize.m */,
-				E2C13BC81D1804DB00EDE287 /* UIView+GCAdd.h */,
-				E2C13BC91D1804DB00EDE287 /* UIView+GCAdd.m */,
-				E2C13B951D1784F100EDE287 /* YAlbumsViewController.h */,
-				E2C13B961D1784F100EDE287 /* YAlbumsViewController.m */,
-				E2C13B971D1784F100EDE287 /* HJQAssetsViewController.h */,
-				E2C13B981D1784F100EDE287 /* HJQAssetsViewController.m */,
-				E2C13B991D1784F100EDE287 /* HJQImageManager.h */,
-				E2C13B9A1D1784F100EDE287 /* HJQImageManager.m */,
-				E2C13B9B1D1784F100EDE287 /* HImageModel.h */,
-				E2C13B9C1D1784F100EDE287 /* HImageModel.m */,
-				E2C13B9D1D1784F100EDE287 /* HJQImagePickerNavController.h */,
-				E2C13B9E1D1784F100EDE287 /* HJQImagePickerNavController.m */,
-				E2C13B9F1D1784F100EDE287 /* HJQPhotoPreviewController.h */,
-				E2C13BA01D1784F100EDE287 /* HJQPhotoPreviewController.m */,
-			);
-			name = HJQAssetsPicker;
-			path = YAssetsPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,10 +207,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2C13B8A1D17849E00EDE287 /* LaunchScreen.storyboard in Resources */,
-				E2C13B871D17849E00EDE287 /* Assets.xcassets in Resources */,
-				E25A1CA61D1CC42C00FF94F8 /* HJQAssetsPicker.bundle in Resources */,
-				E2C13B851D17849E00EDE287 /* Main.storyboard in Resources */,
+				47FE8EB81DE81A5500CD76FC /* HJQAssetsPicker.bundle in Resources */,
+				47FE8ED21DE81B7800CD76FC /* Main.storyboard in Resources */,
+				47FE8ED11DE81B7800CD76FC /* LaunchScreen.storyboard in Resources */,
+				47FE8EC81DE81A8600CD76FC /* Assets.xcassets in Resources */,
+				47FE8ECA1DE81A9600CD76FC /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,37 +222,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11364C681D86C43D001FC39C /* HJQImageManager.m in Sources */,
-				E2C13BA51D1784F100EDE287 /* HJQAssetsViewController.m in Sources */,
-				E2C13BA81D1784F100EDE287 /* HJQImagePickerNavController.m in Sources */,
-				E2C13BA71D1784F100EDE287 /* HImageModel.m in Sources */,
-				E2C13BCB1D1804DB00EDE287 /* UIView+GCAdd.m in Sources */,
-				E2C13BCA1D1804DB00EDE287 /* UIImage+Resize.m in Sources */,
-				E2C13B821D17849E00EDE287 /* ViewController.m in Sources */,
-				E2C13B7F1D17849E00EDE287 /* AppDelegate.m in Sources */,
-				E2C13BA91D1784F100EDE287 /* HJQPhotoPreviewController.m in Sources */,
-				E2C13BA41D1784F100EDE287 /* YAlbumsViewController.m in Sources */,
-				E2C13B7C1D17849E00EDE287 /* main.m in Sources */,
+				47FE8EB71DE81A5500CD76FC /* HImageModel.m in Sources */,
+				47FE8EBC1DE81A5500CD76FC /* HJQPhotoPreviewController.m in Sources */,
+				47FE8EB91DE81A5500CD76FC /* HJQAssetsViewController.m in Sources */,
+				47FE8EBD1DE81A5500CD76FC /* UIImage+Resize.m in Sources */,
+				47FE8EC51DE81A7B00CD76FC /* AppDelegate.m in Sources */,
+				47FE8EC61DE81A7B00CD76FC /* ViewController.m in Sources */,
+				47FE8EBA1DE81A5500CD76FC /* HJQImageManager.m in Sources */,
+				47FE8EBE1DE81A5500CD76FC /* UIView+GCAdd.m in Sources */,
+				47FE8EBF1DE81A5500CD76FC /* YAlbumsViewController.m in Sources */,
+				47FE8ECC1DE81AA200CD76FC /* main.m in Sources */,
+				47FE8EBB1DE81A5500CD76FC /* HJQImagePickerNavController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E2C13B831D17849E00EDE287 /* Main.storyboard */ = {
+		47FE8ECD1DE81B7800CD76FC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E2C13B841D17849E00EDE287 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E2C13B881D17849E00EDE287 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E2C13B891D17849E00EDE287 /* Base */,
+				47FE8ECE1DE81B7800CD76FC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		47FE8ECF1DE81B7800CD76FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47FE8ED01DE81B7800CD76FC /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -344,8 +345,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/YAssetsPickerDemo/PrefixHeader.pch";
-				INFOPLIST_FILE = YAssetsPickerDemo/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HJQAssetsPickerDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/HJQAssetsPickerDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xizhi.com.YAssetsPickerDemo;
@@ -358,8 +359,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/YAssetsPickerDemo/PrefixHeader.pch";
-				INFOPLIST_FILE = YAssetsPickerDemo/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HJQAssetsPickerDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/HJQAssetsPickerDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xizhi.com.YAssetsPickerDemo;
