@@ -58,10 +58,10 @@
         });
     }
     if (model.selected) {
-        [_selectButton setImage:[UIImage imageInBundleWithName:@"selectedPic"] forState:UIControlStateNormal];
+        [_selectButton setImage:[UIImage imageNamed:@"HJQAssetsPicker.bundle/selectedPic.png"] forState:UIControlStateNormal];
     }else
     {
-        [_selectButton setImage:[UIImage imageInBundleWithName:@"unSelectedPic"] forState:UIControlStateNormal];
+        [_selectButton setImage:[UIImage imageNamed:@"HJQAssetsPicker.bundle/unSelectedPic.png"] forState:UIControlStateNormal];
     }
 }
 
@@ -108,7 +108,7 @@
     self.edgesForExtendedLayout = UIRectEdgeBottom;
     self.view.backgroundColor = [UIColor whiteColor];
     
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageInBundleWithName:@"backImage"] style:UIBarButtonItemStylePlain target:self action:@selector(back)];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"HJQAssetsPicker.bundle/backImage.png"] style:UIBarButtonItemStylePlain target:self action:@selector(back)];
     
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(dismissAction)];
     
@@ -395,10 +395,10 @@
     }
     if (!model.selected) {
         
-        [cell.selectButton setImage:[UIImage imageInBundleWithName:@"unSelectedPic"] forState:UIControlStateNormal];
+        [cell.selectButton setImage:[UIImage imageNamed:@"HJQAssetsPicker.bundle/unSelectedPic.png"] forState:UIControlStateNormal];
     }else
     {
-        [cell.selectButton setImage:[UIImage imageInBundleWithName:@"selectedPic"] forState:UIControlStateNormal];
+        [cell.selectButton setImage:[UIImage imageNamed:@"HJQAssetsPicker.bundle/selectedPic.png"] forState:UIControlStateNormal];
 
         [UIView animateWithDuration:0.2 delay:0 options:UIViewAnimationOptionBeginFromCurrentState | UIViewAnimationOptionCurveEaseInOut animations:^{
             

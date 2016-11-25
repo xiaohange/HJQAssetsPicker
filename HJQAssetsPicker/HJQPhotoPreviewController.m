@@ -2,8 +2,8 @@
 //  HJQPhotoPreviewController.h
 //  YImagePickerController
 //
-//  Created by best_kai on 15/12/24.
-//  Copyright © 2015年 best_kai. All rights reserved.
+//  Created by HaRi on 15/12/24.
+//  Copyright © 2015年 HaRi. All rights reserved.
 //
 
 #import "HJQPhotoPreviewController.h"
@@ -175,13 +175,13 @@
     _naviBar.backgroundColor = [UIColor colorWithRed:(34/255.0) green:(34/255.0)  blue:(34/255.0) alpha:.7];
     
     _backButton = [[UIButton alloc] initWithFrame:CGRectMake(10, 10, 44, 44)];
-    [_backButton setImage:[UIImage imageNamed:@"backImageWhite"] forState:UIControlStateNormal];
+    [_backButton setImage:[UIImage imageNamed:@"HJQAssetsPicker.bundle/backImageWhite.png"] forState:UIControlStateNormal];
     [_backButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [_backButton addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
     
     
     _selectButton = [[UIButton alloc] initWithFrame:CGRectMake(screenWidth-52, 20, 30, 30)];
-    [_selectButton setImage:[UIImage imageNamed:@"unSelectedPic"] forState:UIControlStateNormal];
+    [_selectButton setImage:[UIImage imageNamed:@"HJQAssetsPicker.bundle/unSelectedPic.png"] forState:UIControlStateNormal];
     [_selectButton addTarget:self action:@selector(select:) forControlEvents:UIControlEventTouchUpInside];
     
     
@@ -294,7 +294,7 @@
         
         [self.selectedPhotoArr addObject:model];
 
-        [selectButton setImage:[UIImage imageNamed:@"selectedPic"] forState:UIControlStateNormal];
+        [selectButton setImage:[UIImage imageNamed:@"HJQAssetsPicker.bundle/selectedPic.png"] forState:UIControlStateNormal];
 
         [UIView animateWithDuration:0.2 delay:0 options:UIViewAnimationOptionBeginFromCurrentState | UIViewAnimationOptionCurveEaseInOut animations:^{
             
@@ -317,8 +317,7 @@
         if ([_selectedPhotoArr containsObject:model]) {
             [_selectedPhotoArr removeObject:model];
         }
-        
-        [selectButton setImage:[UIImage imageNamed:@"unSelectedPic"] forState:UIControlStateNormal];
+        [selectButton setImage:[UIImage imageNamed:@"HJQAssetsPicker.bundle/unSelectedPic.png"] forState:UIControlStateNormal];
     }
     
     if (self.selectedPhotoArr.count) {
@@ -438,7 +437,7 @@
 - (void)refreshNaviBarAndBottomBarState {
     
     HImageModel *model = _photoArr[_currentIndex];
-    [_selectButton setImage:model.selected?[UIImage imageNamed:@"selectedPic"]:[UIImage imageNamed:@"unSelectedPic"] forState:UIControlStateNormal];
+    [_selectButton setImage:model.selected?[UIImage imageNamed:@"HJQAssetsPicker.bundle/selectedPic.png"]:[UIImage imageNamed:@"HJQAssetsPicker.bundle/unSelectedPic.png"] forState:UIControlStateNormal];
     indexLabel.text = [NSString stringWithFormat:@"%zd / %zd", _currentIndex + 1,_photoArr.count];
     
     if (self.selectedPhotoArr.count) {

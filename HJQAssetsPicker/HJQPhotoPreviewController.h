@@ -2,8 +2,8 @@
 //  HJQPhotoPreviewController.h
 //  YImagePickerController
 //
-//  Created by best_kai on 15/12/24.
-//  Copyright © 2015年 best_kai. All rights reserved.
+//  Created by HaRi on 15/12/24.
+//  Copyright © 2015年 HaRi. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
